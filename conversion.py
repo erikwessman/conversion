@@ -67,8 +67,8 @@ def answer_query(query, facts):
     
     if total_conversion is not None:
         return total_conversion * float(l_amount)
-    
-    return "not convertible!"
+    else:
+        return "not convertible!"
 
 
 if __name__ == "__main__":
