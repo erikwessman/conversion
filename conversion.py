@@ -74,6 +74,6 @@ def answer_query(query, facts):
 if __name__ == "__main__":
     with open("facts.txt") as f:
         facts = f.read()
-        query = "2 m = ? in"
+        query = "15.6 ft = ? mm"
         answer = answer_query(query, facts)
         print(answer)
